@@ -36,7 +36,7 @@ return new class extends AbstractModule implements ModuleCustomInterface, Module
     use ModuleConfigTrait;
     use ModuleGlobalTrait;
 
-    protected const ROUTE_URL   = '/tree/{tree}/jc-simple-menu-1/{menu}';
+    protected const ROUTE_URL   = '/tree/{tree}/page/{menu}';
 
      // Module constants
     public const CUSTOM_AUTHOR = 'JustCarmen';
